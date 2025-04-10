@@ -1,8 +1,14 @@
-header{
-    background_color: blue
-};
-img{
-    height: 200px;
-    width: 100px;
 
-};
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full screen height */
+      background-color: #fff; /* Optional */
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
